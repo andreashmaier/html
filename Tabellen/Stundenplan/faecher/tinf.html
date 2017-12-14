@@ -9,14 +9,23 @@
         body{
             background-color: lightgreen;
         }
+        img{
+            width: 10%;
+            height: 10%;
+        }
     </style>
 </head>
 
 <body>
     <h1>TINF</h1>
     <p>Dozent: Herr Kohnle</p>
-    <a href="http://www.kohnlehome.de" target="_blanked"><img src="http://kohnlehome.de/franz-kohnle-2017.jpg" title="Kohnle" alt="Hier waere Kohnle zu sehen">
-    
+    <a href="http://www.kohnlehome.de" target="_blanked"><img src="http://kohnlehome.de/franz-kohnle-2017.jpg" title="Kohnle" alt="Hier waere Kohnle zu sehen" width="71.25px" height="94.75px"></a>
+    <a href="http://www.kohnlehome.de" target="_blanked"><img src="http://kohnlehome.de/franz-kohnle-2017.jpg" title="Kohnle" alt="Hier waere Kohnle zu sehen" style="width: 71.25px; height: 94.75px"</a>
+    <!-- Link "Kohnles"-Nase -->
+    <img src="http://kohnlehome.de/franz-kohnle-2017.jpg" usemap="#kohnle">
+    <map name="kohnle">
+      <area shape="circle" coords="164,193,20" href="http://www.kohnlehome.de" alt="kohnle">
+    </map> 
     <p><a href="../stundenplan.html" target="_blanked">Zurück</a></p>
 </body>
 
