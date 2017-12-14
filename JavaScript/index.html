@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meine erste Seite mit JavaScript</title>
+</head>
+
+<body>
+    <h1 id="h1">Frohe Weihnachten</h1>
+    <input id="btn_aendern" type="button" name="Aendern" value="Ändern" onclick="aendern()">
+    <input id="btn_Rot" type="button" value="Rot" onclick="rot()">
+    <script>
+        function aendern() {
+            var h1 = document.getElementById('h1');
+            h1.innerText = h1.innerText + ' und einen guten Rutsch ins neue Jahr';
+            // console.log("Hallo Welt");
+            // console.log(document.getElementById('h1').innerText);
+        }
+
+        function rot(){
+            document.body.style.backgroundColor = 'red';
+        }
+        
+    </script>
+</body>
+
+</html>
